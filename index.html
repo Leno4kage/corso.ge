@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Corso</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#register">РЕГИСТРАЦИЯ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#description">ДЕТАЛИ</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h1> Обучим вашего ребенка перспективной профессии</h1>
+                        <p class="p-large">Онлайн-школа программирования для детей 2-12 классов</p>
+                        <a class="btn-solid-lg page-scroll" href="#register">Попробовать бесплатно</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        
+        <!-- Image Slider -->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Slide -->
+                        <div class="swiper-slide" >
+                            <img class="img-fluid" src="images/details-slide-1.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-2.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-3.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+                    
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+                    
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- Registration -->
+    <div id="register" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Зарегистрируйтесь с помощью формы</h2>
+                        <p>Зарегистрироваться на курс очень просто: заполните форму и нажмите кнопку "Отправить". После этого вы будете зарегистрированы на пробное занятие.</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Ваша информация необходима </strong> для завершения регистрации</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>У нас она в безопасности </strong> и не будет использоваться для маркетинга</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Вы получите подтверждение </strong> по номеру телефона менее чем через 24 часа</div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Registration Form -->
+                    <div class="form-container">
+                        <form id="registrationForm" data-toggle="validator" data-focus="false">
+                            <br><br>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="rname" name="rname" required>
+                                <label class="label-control" for="rname">Ваше имя</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="remail" name="remail" required>
+                                <label class="label-control" for="remail">Номер телефона</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="rphone" name="rphone" required>
+                                <label class="label-control" for="rphone">Имя ребенка</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>Я прочитал и согласен с <a href="privacy-policy.html">Политикой конфиденциальности</a> и <a href="terms-conditions.html">Положениями и условиями</a>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Записаться на занятие</button>
+                            </div>
+                            <div class="form-message">
+                                <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+    <!-- Description -->
+    <div id="description" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Что получит ребёнок в нашей школе?</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg first">
+                        <li class="media">
+                            <i class="bullet">1</i>
+                            <div class="media-body">
+                                <h4>Развитие способностей</h4>
+                                <p>Занятия программированием развивают логическое мышление и креативность</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">2</i>
+                            <div class="media-body">
+                                <h4>Полезное хобби</h4>
+                                <p>Вместо компьютерных игр и YouTube, ребенок будет развивать свои способности</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">3</i>
+                            <div class="media-body">
+                                <h4>Перспективная профессия</h4>
+                                <p>Наши выпускники становятся востребованными на высокодоходном рынке труда</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg second">
+                        <li class="media">
+                            <i class="bullet"></i>
+                            <div class="media-body">
+                                <h4>3-5 класс</h4>
+                                <p>Знакомство с алгоритмами и языком программирования</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet"></i>
+                            <div class="media-body">
+                                <h4>6–7 класс</h4>
+                                <p>Решение сложных задач на языке программирования Python</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet"></i>
+                            <div class="media-body">
+                                <h4>8–11 класс</h4>
+                                <p>Создание полноценных программ и web- сайтов</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of description -->
+
+
+    <!-- Students -->
+    <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Условия обучения</h2>
+                        <p>Стоимость обучения 4000 руб/4 занятия</p>
+                        <p>Учимся 1 раз в неделю</p>
+                        <p>Длительность занятий – 1 час для младших и 1,5 часа для старших классов</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/students.jpg" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of students -->
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Отзывы - Лучшая награда, это результат наших учеников, который видят дети и родители</h3>
+
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-1.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Спасибо огромное за Вашу работу, за Ваше терпение! В такие непростые времена для всего мира, ваша школа осталась на высоте! Ребенок с огромным удовольствием занимался в очном формате, а сейчас и в онлайн. Наверное, единственные занятия, которые он посещает с большим желанием. Спасибо!</div>
+                                        <div class="testimonial-author">Елена Васильевна Винокурова - Родитель</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-3.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Индивидуальный подход, хорошее качество обучения с реальной актуальной информацией и плотной практикой. Хорошие и отзывчивые преподаватели, интересные домашние задания. Недостатков нет. Всем рекомендую эту школу!</div>
+                                        <div class="testimonial-author">Марат Мазанов - Родитель</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-4.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Мы с мужем сами информатики и не задумываясь предложили дочери обучаться в Вашей школе. Ей очень нравится! Мы стараемся объяснять ей, как это важно и приоритетно знать программирование в современном мире. Вы замечательные наставники для наших маленьких программистов!</div>
+                                        <div class="testimonial-author">Юлия Андреевна Антонова - Родитель</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+                            
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of text slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Созданно в 2024 году для диплломной работы @Чорбаджи Елена Васильевна (076001266)</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
